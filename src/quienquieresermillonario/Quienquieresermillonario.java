@@ -17,8 +17,10 @@ public class Quienquieresermillonario {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //Reporten todos la conexion
         //fabian
         //Pablo
+        //yefrid
     }
     
 }
