@@ -10,5 +10,7 @@ package app;
  * @author M O
  */
 public class Jeffry {
-    
+    public void dddd(){
+        
+    }
 }
