@@ -11,4 +11,6 @@ package app;
  */
 public class PabloMongolo {
     
+    int NivelDeInvesil;
+    
 }
