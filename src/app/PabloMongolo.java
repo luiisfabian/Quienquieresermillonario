@@ -7,12 +7,8 @@ package app;
 
 /**
  *
- * @author IE_DEVELOPER1
+ * @author M O
  */
-public class fabian {
-    
-    public void miraAprendi(){
-       
-    }
+public class PabloMongolo {
     
 }
