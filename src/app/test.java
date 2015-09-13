@@ -10,5 +10,5 @@ package app;
  * @author Santiago
  */
 public class test {
-    
+    String unAtributo;
 }
