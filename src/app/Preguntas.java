@@ -14,5 +14,5 @@ public class Preguntas {
     int Type;
     int Respuesta;
     Respuesta[] respuestas = new Respuesta[4];
-    
+    //Santiago hace algun cambios
 }
