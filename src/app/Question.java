@@ -1,14 +1,60 @@
 package app;
+/***
+ * 
+ * @author Jeffrey David Rios Mora
+ * Preguntas
+ * 
+ */
 public class Question {
     //respuesta answer
     //pregunta Question 
     String description; //Aca va el nombre de la pregunta
     //String name;
     //questions
-    //int askType; //Tipo de pregunta (historia, geografia, biologia
-    int answerPosition;
+    //int askType; 
+    int answerPosition;//Respuesta de a pregunta (en que posicion esta la respuesta
     int complexity; //Nivel de dificultad
-    int clasification; //
-    Answer[] answers = new Answer[4];
+    int clasification; //Tipo de pregunta (historia, geografia, biologia
+    Answer[] answers = new Answer[4]; //Aca van las cuatro posibles respuestas
     //Santiago hace algun cambios
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getAnswerPosition() {
+        return answerPosition;
+    }
+
+    public int getComplexity() {
+        return complexity;
+    }
+
+    public int getClasification() {
+        return clasification;
+    }
+
+    public Answer[] getAnswers() {
+        return answers;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setAnswerPosition(int answerPosition) {
+        this.answerPosition = answerPosition;
+    }
+
+    public void setComplexity(int complexity) {
+        this.complexity = complexity;
+    }
+
+    public void setClasification(int clasification) {
+        this.clasification = clasification;
+    }
+
+    public void setAnswers(Answer[] answers) {
+        this.answers = answers;
+    }
 }
