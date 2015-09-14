@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package app;
+package app.UsersType;
+//package app;
 
 /**
  *
- * @author Santiago
+ * @author IE_DEVELOPER1
  */
-public class test {
-    String unAtributo;
+public class Administrador extends Usuario{
+    
 }
