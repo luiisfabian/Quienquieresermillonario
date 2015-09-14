@@ -9,6 +9,6 @@ package app.UsersType;
  *
  * @author IE_DEVELOPER1
  */
-public class Participante {
+public class Participante extends app.User{
     
 }

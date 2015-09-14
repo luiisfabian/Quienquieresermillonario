@@ -9,8 +9,8 @@ package app;
  *
  * @author IE_DEVELOPER1
  */
-public class Usuario {
+public class User{
     String fullName;
     //int userType;
-    userType userType;
+    //userType userType;
 }

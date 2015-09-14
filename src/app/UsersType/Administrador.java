@@ -10,6 +10,6 @@ package app.UsersType;
  *
  * @author IE_DEVELOPER1
  */
-public class Administrador extends Usuario{
+public class Administrador extends app.User{
     
 }
