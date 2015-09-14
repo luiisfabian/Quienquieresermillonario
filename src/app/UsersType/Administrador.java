@@ -1,15 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package app.UsersType;
-//package app;
+Esta persona hace un crud sobre las preguntas
 
-/**
- *
- * @author IE_DEVELOPER1
- */
+*/
+package app.UsersType;
 public class Administrador extends app.User{
     
 }

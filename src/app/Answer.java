@@ -9,10 +9,6 @@ package app;
  *
  * @author IE_DEVELOPER1
  */
-public class Preguntas {
-    String name;
-    int Type;
-    int Respuesta;
-    Respuesta[] respuestas = new Respuesta[4];
-    //Santiago hace algun cambios
+public class Answer {
+    String description;
 }
