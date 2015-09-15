@@ -67,6 +67,11 @@ public class Formulario extends javax.swing.JFrame {
 
         jMenuItem4.setText("preguntas");
         jMenuItem4.setToolTipText("");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
         jMenu1.add(jMenuItem4);
 
         jMenuItem6.setText("premios");
@@ -104,6 +109,11 @@ public class Formulario extends javax.swing.JFrame {
         
         System.exit(0);
     }//GEN-LAST:event_jRadioButtonMenuItem1ActionPerformed
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+         // funcionalidad para ver los participantes 
+        
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -9,8 +9,6 @@ package app;
  *
  * @author IE_DEVELOPER1
  */
-public class Usuario {
-    String fullName;
-    //int userType;
-    userType userType;
+public interface IUsuario {
+    public abstract String getNombre();
 }

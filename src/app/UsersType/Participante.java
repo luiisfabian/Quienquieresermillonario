@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package app;
+package app.UsersType;
 
 /**
  *
  * @author IE_DEVELOPER1
  */
-public class Respuesta {
-    String respuesta;
+public class Participante extends app.User{
+    
 }

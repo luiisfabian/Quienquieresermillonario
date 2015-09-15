@@ -9,10 +9,8 @@ package app;
  *
  * @author IE_DEVELOPER1
  */
-public class Preguntas {
-    String name;
-    int Type;
-    int Respuesta;
-    Respuesta[] respuestas = new Respuesta[4];
-    
+public class User{
+    String fullName;
+    //int userType;
+    //userType userType;
 }
