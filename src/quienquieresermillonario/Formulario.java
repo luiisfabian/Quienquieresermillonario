@@ -6,6 +6,8 @@
 package quienquieresermillonario;
 import javax.swing.*;
 import java.io.*;
+import javafx.stage.FileChooser;
+import javax.swing.text.html.HTML;
 /**
  *
  * @author M O
@@ -112,6 +114,28 @@ public class Formulario extends javax.swing.JFrame {
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
          // funcionalidad para ver los participantes 
+        //boton abrir ponerle funcionalidad
+        JFileChooser = new JFileChooser();
+        
+        int returnVal = JFileChooser.showOpenDialog(this);
+        
+        if(returnVal == JFileChooser.APPROVE_OPTION){
+            concurso= JFileChooser.getSelectedFile();
+            try {
+                jTextPane1.setText(null);
+                BufferedReader br= new BufferedReader(new FileReader(concurso));
+                String cadena;
+                while((cadena = br.readLine()) != null){
+                   ///  terminar esta cadena 
+                    
+                }
+            } catch (IOException ex) {
+                System.out.println(ex.getMessage());
+            }
+        
+        }else{
+        System.out.println("Cancelado por el usuario");
+    }
         
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
