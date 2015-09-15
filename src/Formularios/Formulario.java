@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package quienquieresermillonario;
+package Formularios;
 import javax.swing.*;
 import java.io.*;
 import javafx.stage.FileChooser;
@@ -65,7 +65,7 @@ public class Formulario extends javax.swing.JFrame {
 
         jScrollPane1.setViewportView(jTextPane1);
 
-        jMenu1.setText("concurso");
+        jMenu1.setText("Concurso");
 
         jMenuItem4.setText("preguntas");
         jMenuItem4.setToolTipText("");
