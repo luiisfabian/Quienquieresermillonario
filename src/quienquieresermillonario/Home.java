@@ -41,7 +41,7 @@ public class Home extends javax.swing.JFrame {
         setExtendedState(6);
         getContentPane().setLayout(null);
 
-        jButton1.setBackground(new java.awt.Color(255, 255, 255));
+        jButton1.setBackground(new java.awt.Color(51, 204, 255));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton1.setText("Presentador");
         jButton1.setToolTipText("");
@@ -56,9 +56,9 @@ public class Home extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(10, 300, 180, 40);
+        jButton1.setBounds(10, 130, 180, 40);
 
-        jButton2.setBackground(new java.awt.Color(255, 255, 255));
+        jButton2.setBackground(new java.awt.Color(51, 204, 255));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton2.setText("Administrador");
         jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -72,9 +72,9 @@ public class Home extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(10, 350, 180, 40);
+        jButton2.setBounds(210, 130, 180, 40);
 
-        jButton3.setBackground(new java.awt.Color(255, 255, 255));
+        jButton3.setBackground(new java.awt.Color(51, 204, 255));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton3.setText("Participante");
         jButton3.setToolTipText("");
@@ -89,9 +89,9 @@ public class Home extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(10, 400, 180, 40);
+        jButton3.setBounds(420, 130, 180, 40);
 
-        jButton4.setBackground(new java.awt.Color(204, 204, 204));
+        jButton4.setBackground(new java.awt.Color(51, 204, 255));
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton4.setText("Salir");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -100,7 +100,7 @@ public class Home extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(650, 390, 130, 40);
+        jButton4.setBounds(160, 390, 180, 40);
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("Shonar Bangla", 1, 32)); // NOI18N
@@ -108,9 +108,7 @@ public class Home extends javax.swing.JFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Selecciona tu tipo de usuario");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(0, 10, 340, 50);
-
-        jLabel4.setIcon(new javax.swing.ImageIcon("D:\\Santiago 2\\Downloads\\Downloads\\ImagenFondoQQSM_opt (1).jpg")); // NOI18N
+        jLabel2.setBounds(150, 50, 340, 50);
         getContentPane().add(jLabel4);
         jLabel4.setBounds(0, 0, 800, 460);
 
