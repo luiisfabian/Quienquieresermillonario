@@ -1,22 +1,22 @@
 package app;
-/***
- * 
- * @author Jeffrey David Rios Mora
+/*
  * Preguntas
- * 
  */
 public class Question {
-    //respuesta answer
-    //pregunta Question 
+    //Respuestas(Answer)
+    //Preguntas(Question)
     String description; //Aca va el nombre de la pregunta
     //String name;
-    //questions
+    //Questions
     //int askType; 
     int answerPosition;//Respuesta de a pregunta (en que posicion esta la respuesta
     int complexity; //Nivel de dificultad
     int clasification; //Tipo de pregunta (historia, geografia, biologia
-    Answer[] answers = new Answer[4]; //Aca van las cuatro posibles respuestas
-    //Santiago hace algun cambios
+    Answer[] answers = new Answer[4]; 
+
+    
+//Aca deben ir las cuatro posibles respuestas
+
 
     public String getDescription() {
         return description;

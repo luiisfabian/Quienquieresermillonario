@@ -1,17 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Formularios;
 import javax.swing.*;
 import java.io.*;
 import javafx.stage.FileChooser;
 import javax.swing.text.html.HTML;
-/**
- *
- * @author M O
- */
+
 public class Formulario extends javax.swing.JFrame {
 
     /**
@@ -139,9 +131,7 @@ public class Formulario extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
