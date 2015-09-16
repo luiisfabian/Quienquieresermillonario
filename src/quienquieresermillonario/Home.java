@@ -18,6 +18,7 @@ public class Home extends javax.swing.JFrame {
      */
     public Home() {
         initComponents();
+        setLocationRelativeTo(null);/// centrarlo
     }
 
     /**
@@ -72,7 +73,7 @@ public class Home extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(210, 130, 180, 40);
+        jButton2.setBounds(220, 130, 180, 40);
 
         jButton3.setBackground(new java.awt.Color(51, 204, 255));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -100,28 +101,31 @@ public class Home extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(160, 390, 180, 40);
+        jButton4.setBounds(220, 180, 180, 40);
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("Shonar Bangla", 1, 32)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setForeground(new java.awt.Color(204, 0, 51));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Selecciona tu tipo de usuario");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(150, 50, 340, 50);
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(0, 0, 800, 460);
+        jLabel4.setBounds(0, 0, 800, 260);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+           
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(null, "Bienvenido Presentador");
+        
+        
         
         
     }//GEN-LAST:event_jButton1MouseClicked
