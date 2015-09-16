@@ -30,12 +30,15 @@ public class Home extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel3 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+
+        jLabel3.setText("jLabel3");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(10, 56, 245));
@@ -105,13 +108,16 @@ public class Home extends javax.swing.JFrame {
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("Shonar Bangla", 1, 32)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(204, 0, 51));
+        jLabel2.setForeground(new java.awt.Color(51, 255, 51));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Selecciona tu tipo de usuario");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(150, 50, 340, 50);
+
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\M O\\Downloads\\descarga.jpg")); // NOI18N
+        jLabel4.setText("jLabel4");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(0, 0, 800, 260);
+        jLabel4.setBounds(-300, 0, 990, 420);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -194,6 +200,7 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     // End of variables declaration//GEN-END:variables
 }
