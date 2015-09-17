@@ -16,6 +16,8 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
      */
     public CreacionNuevasPreguntas() {
         initComponents();
+        
+        
     }
 
     /**
@@ -27,6 +29,8 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        buttonGroup2 = new javax.swing.ButtonGroup();
         jTextField1 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -43,8 +47,10 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(700, 700));
         getContentPane().setLayout(null);
 
         jTextField1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
@@ -57,13 +63,12 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
         getContentPane().add(jTextField1);
         jTextField1.setBounds(50, 90, 500, 38);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Ingrese una nueva pregunta");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 50, 600, 35);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Ingrese las 4 opciones de respuesta a la pregunta creada y seleccione cual es la respuesta correcta");
         getContentPane().add(jLabel2);
@@ -76,7 +81,7 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextField2);
-        jTextField2.setBounds(30, 188, 360, 20);
+        jTextField2.setBounds(30, 188, 360, 30);
 
         jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
@@ -85,15 +90,15 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextField3);
-        jTextField3.setBounds(30, 240, 360, 20);
+        jTextField3.setBounds(30, 240, 360, 30);
 
         jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         getContentPane().add(jTextField4);
-        jTextField4.setBounds(30, 290, 360, 20);
+        jTextField4.setBounds(30, 290, 360, 30);
 
         jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         getContentPane().add(jTextField5);
-        jTextField5.setBounds(30, 340, 360, 20);
+        jTextField5.setBounds(30, 340, 360, 30);
         getContentPane().add(jRadioButton1);
         jRadioButton1.setBounds(480, 190, 21, 20);
         getContentPane().add(jRadioButton2);
@@ -106,24 +111,29 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("PANEL DE CREACIÓN DE NUEVAS PREGUNTAS");
+        jLabel3.setPreferredSize(new java.awt.Dimension(600, 100));
         getContentPane().add(jLabel3);
         jLabel3.setBounds(1, 11, 600, 41);
 
         jLabel4.setText("Opción 1");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(30, 168, 42, 14);
+        jLabel4.setBounds(30, 168, 70, 14);
 
         jLabel5.setText("Opción 2");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(30, 220, 42, 14);
+        jLabel5.setBounds(30, 220, 70, 14);
 
         jLabel6.setText("Opción 3");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(30, 270, 42, 14);
+        jLabel6.setBounds(30, 270, 60, 14);
 
         jLabel7.setText("Opción 4");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(30, 320, 42, 14);
+        jLabel7.setBounds(30, 320, 60, 14);
+
+        jLabel8.setText("Selección de respuesta correcta");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(410, 170, 170, 14);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -171,11 +181,14 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new CreacionNuevasPreguntas().setVisible(true);
+                new CreacionNuevasPreguntas().setExtendedState(MAXIMIZED_BOTH);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -183,6 +196,7 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JRadioButton jRadioButton3;
@@ -193,4 +207,6 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     // End of variables declaration//GEN-END:variables
+
+
 }
