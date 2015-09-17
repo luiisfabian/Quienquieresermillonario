@@ -40,6 +40,7 @@ public class Administrador extends javax.swing.JFrame {
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -48,7 +49,7 @@ public class Administrador extends javax.swing.JFrame {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Menu del Administrador");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 10, 390, 31);
+        jLabel1.setBounds(10, 30, 390, 31);
 
         jButton1.setText("Ver Preguntas");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -105,6 +106,12 @@ public class Administrador extends javax.swing.JFrame {
         });
         getContentPane().add(jButton9);
         jButton9.setBounds(230, 190, 140, 30);
+
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/quienquieresermillonario/descarga.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(0, 0, 390, 280);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -180,5 +187,6 @@ public class Administrador extends javax.swing.JFrame {
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
