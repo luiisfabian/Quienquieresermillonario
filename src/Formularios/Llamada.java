@@ -6,6 +6,7 @@
 package Formularios;
 
 import javax.swing.JOptionPane;
+import java.applet.AudioClip; // libreria para agregar sonido a las aplicaciones
 
 /**
  *
@@ -96,7 +97,11 @@ public class Llamada extends javax.swing.JFrame {
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         // TODO add your handling code here:
         
-        JOptionPane.showMessageDialog(null, "Gracias a Une telecomunicaaciones su llamada esta siendo exitosa");
+        //JOptionPane.showMessageDialog(null, "Gracias a Une telecomunicaaciones su llamada esta siendo exitosa");
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("/sonidoJava/Sonido.mp3"));
+        sonido.play();
+                
     }//GEN-LAST:event_jButton1MouseClicked
 
     /**
