@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="IE-CONSULTING"/>
         <group>
             <file>file:/C:/Users/M%20O/Documents/NetBeansProjects/Quienquieresermillonario/src/Referencia/Distribucion%20del%20trabajo</file>
-            <file>file:/C:/Users/M%20O/Documents/NetBeansProjects/Quienquieresermillonario/src/Formularios/Formulario.java</file>
+            <file>file:/C:/Users/M%20O/Documents/NetBeansProjects/Quienquieresermillonario/src/quienquieresermillonario/Presentador.java</file>
             <file>file:/C:/Users/M%20O/Documents/NetBeansProjects/Quienquieresermillonario/src/quienquieresermillonario/Home.java</file>
+            <file>file:/C:/Users/M%20O/Documents/NetBeansProjects/Quienquieresermillonario/src/quienquieresermillonario/Administrador.java</file>
+            <file>file:/C:/Users/M%20O/Documents/NetBeansProjects/Quienquieresermillonario/src/quienquieresermillonario/Participante.java</file>
         </group>
     </open-files>
 </project-private>
