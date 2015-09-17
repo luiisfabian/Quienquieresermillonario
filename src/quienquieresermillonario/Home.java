@@ -1,8 +1,8 @@
 
 package quienquieresermillonario;
 
-import Formularios.IngresoDatosJugados;
-import app.UsersType.Participante;
+//import Formularios.IngresoDatosJugados;
+import quienquieresermillonario.Participante;
 import javax.swing.JOptionPane;
 
 public class Home extends javax.swing.JFrame 
@@ -130,6 +130,7 @@ public class Home extends javax.swing.JFrame
     private void ParticipanteMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ParticipanteMouseClicked
 
         ///JOptionPane.showMessageDialog(null, "Bievenido Participante");
+        JOptionPane.showMessageDialog(null, "Bievenido Participante");
         
     }//GEN-LAST:event_ParticipanteMouseClicked
 
@@ -145,13 +146,12 @@ public class Home extends javax.swing.JFrame
     }//GEN-LAST:event_AdministradorActionPerformed
 
     private void ParticipanteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ParticipanteActionPerformed
+       Participante s=new Participante();
+       new Participante().setVisible(true);
+       
         
-        //Participante Pa = new Participante();
-        //Pa.setVisible(true);
         
-        IngresoDatosJugados IDJ = new IngresoDatosJugados();
-        IDJ.setVisible(true);
-        this.setVisible(false);
+      
 
     }//GEN-LAST:event_ParticipanteActionPerformed
 
