@@ -99,7 +99,7 @@ public class Llamada extends javax.swing.JFrame {
         
         //JOptionPane.showMessageDialog(null, "Gracias a Une telecomunicaaciones su llamada esta siendo exitosa");
         AudioClip sonido;
-        sonido = java.applet.Applet.newAudioClip(getClass().getResource("/sonidoJava/Sonido.mp3"));
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Formularios/Sonido.wav"));
         sonido.play();
                 
     }//GEN-LAST:event_jButton1MouseClicked
