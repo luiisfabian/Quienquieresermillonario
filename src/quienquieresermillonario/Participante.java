@@ -5,6 +5,7 @@
  */
 package quienquieresermillonario;
 
+import Formularios.PreguntaUno;
 import javax.swing.JOptionPane;
 
 /**
@@ -180,6 +181,8 @@ public class Participante extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
+        PreguntaUno P1=new PreguntaUno();
+        new PreguntaUno().setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
