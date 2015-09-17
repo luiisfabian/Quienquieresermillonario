@@ -16,6 +16,7 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
      */
     public CreacionNuevasPreguntas() {
         initComponents();
+        setLocationRelativeTo(null);/// centrarlo
         
         
     }
@@ -48,6 +49,7 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(700, 700));
@@ -135,6 +137,10 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
         getContentPane().add(jLabel8);
         jLabel8.setBounds(410, 170, 170, 14);
 
+        jButton1.setText("Agregar");
+        getContentPane().add(jButton1);
+        jButton1.setBounds(510, 370, 71, 23);
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -189,6 +195,7 @@ public class CreacionNuevasPreguntas extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

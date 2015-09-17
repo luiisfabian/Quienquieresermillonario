@@ -16,6 +16,7 @@ public class Presentador extends javax.swing.JFrame {
      */
     public Presentador() {
         initComponents();
+        setLocationRelativeTo(null);/// centrarlo
     }
 
     /**

@@ -1,7 +1,7 @@
 
 package quienquieresermillonario;
 
-import Formularios.IngresoDatosJugador;
+import Formularios.IngresoDatosJugados;
 import app.UsersType.Participante;
 import javax.swing.JOptionPane;
 
@@ -149,7 +149,7 @@ public class Home extends javax.swing.JFrame
         //Participante Pa = new Participante();
         //Pa.setVisible(true);
         
-        IngresoDatosJugador IDJ = new IngresoDatosJugador();
+        IngresoDatosJugados IDJ = new IngresoDatosJugados();
         IDJ.setVisible(true);
         this.setVisible(false);
 

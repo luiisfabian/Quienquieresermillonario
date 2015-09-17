@@ -5,6 +5,8 @@
  */
 package quienquieresermillonario;
 
+import Formularios.CreacionNuevasPreguntas;
+
 /**
  *
  * @author M O
@@ -16,6 +18,7 @@ public class Administrador extends javax.swing.JFrame {
      */
     public Administrador() {
         initComponents();
+        setLocationRelativeTo(null);/// centrarlo
     }
 
     /**
@@ -57,6 +60,11 @@ public class Administrador extends javax.swing.JFrame {
         jButton1.setBounds(10, 150, 152, 30);
 
         jButton2.setText("Agregar preguntas");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2);
         jButton2.setBounds(10, 110, 152, 30);
 
@@ -118,6 +126,13 @@ public class Administrador extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        
+       CreacionNuevasPreguntas C=new CreacionNuevasPreguntas();
+       new CreacionNuevasPreguntas().setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
